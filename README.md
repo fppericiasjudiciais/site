@@ -21,4 +21,4 @@ Site institucional estatico de Fernando Alves Pires Neto para divulgacao de serv
 5. Escolha a branch `main` e a pasta `/root`.
 6. Salve e aguarde a URL de publicacao.
 
-URL publicada: https://fppericiasjudiciais.github.io/site/
+URL publicada: https://fppericiasjudiciais.com.br/
