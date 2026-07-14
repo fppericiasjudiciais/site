@@ -55,35 +55,35 @@
             <div class="contact-cards">
               <article class="contact-card">
                 <strong>E-mail</strong>
-                <span>atendimento@fppericias.com.br</span>
+                <span><a href="mailto:fppericiasjudiciais@gmail.com">fppericiasjudiciais@gmail.com</a></span>
               </article>
               <article class="contact-card">
                 <strong>WhatsApp</strong>
-                <span>(00) 00000-0000</span>
+                <span><a href="https://wa.me/5521920200117" target="_blank" rel="noopener">(21) 92020-0117</a></span>
               </article>
               <article class="contact-card">
                 <strong>Atendimento</strong>
-                <span>Demandas judiciais e extrajudiciais em todo o Brasil</span>
+                <span>Demandas judiciais e extrajudiciais em todo o territ&oacute;rio nacional</span>
               </article>
             </div>
           </div>
 
-          <form class="contact-form" action="#" method="post">
+          <form class="contact-form" id="contact-form" data-whatsapp="5521920200117">
             <div class="form-field">
               <label for="name">Nome</label>
-              <input id="name" name="name" type="text" autocomplete="name" placeholder="Seu nome">
+              <input id="name" name="name" type="text" autocomplete="name" placeholder="Seu nome" required>
             </div>
             <div class="form-field">
               <label for="email">E-mail</label>
-              <input id="email" name="email" type="email" autocomplete="email" placeholder="seuemail@dominio.com">
+              <input id="email" name="email" type="email" autocomplete="email" placeholder="seuemail@exemplo.com" required>
             </div>
             <div class="form-field">
               <label for="phone">Telefone</label>
-              <input id="phone" name="phone" type="tel" autocomplete="tel" placeholder="(00) 00000-0000">
+              <input id="phone" name="phone" type="tel" autocomplete="tel" placeholder="Seu telefone com DDD" required>
             </div>
             <div class="form-field">
               <label for="subject">Tipo de demanda</label>
-              <select id="subject" name="subject">
+              <select id="subject" name="subject" required>
                 <option value="">Selecione uma op&ccedil;&atilde;o</option>
                 <option>Computa&ccedil;&atilde;o forense</option>
                 <option>Documentoscopia</option>
@@ -95,9 +95,9 @@
             </div>
             <div class="form-field">
               <label for="message">Resumo do caso</label>
-              <textarea id="message" name="message" rows="6" placeholder="Descreva brevemente a demanda, prazos e documentos dispon&iacute;veis."></textarea>
+              <textarea id="message" name="message" rows="6" placeholder="Descreva brevemente a demanda, prazos e documentos dispon&iacute;veis." required></textarea>
             </div>
-            <button class="btn btn-primary" type="submit">Enviar solicita&ccedil;&atilde;o</button>
+            <button class="btn btn-primary" type="submit">Enviar pelo WhatsApp</button>
           </form>
         </div>
       </section>
@@ -109,5 +109,18 @@
         <span>&copy; 2026 Fernando Alves Pires Neto &middot; Perito Judicial</span>
       </div>
     </footer>
+    <a
+      class="floating-whatsapp"
+      href="https://wa.me/5521920200117"
+      target="_blank"
+      rel="noopener"
+      aria-label="Falar pelo WhatsApp"
+    >
+      <svg class="floating-whatsapp-icon" viewBox="0 0 32 32" aria-hidden="true" focusable="false">
+        <path d="M16 4.5A11.5 11.5 0 0 0 6.1 21.8L4.8 27l5.3-1.3A11.5 11.5 0 1 0 16 4.5Zm0 2.1a9.4 9.4 0 0 1 7.9 14.5 9.4 9.4 0 0 1-13.2 2.5l-.4-.3-2.7.7.7-2.7-.3-.4A9.4 9.4 0 0 1 16 6.6Zm-3.5 4.5c-.3 0-.7.1-1 .5-.4.4-1.3 1.3-1.3 3.1s1.3 3.6 1.5 3.8c.2.3 2.6 4 6.4 5.4 3.1 1.2 3.8.9 4.5.8.7-.1 2.2-.9 2.5-1.8.3-.9.3-1.7.2-1.8-.1-.2-.3-.3-.7-.5l-2.5-1.2c-.3-.1-.6-.2-.8.2-.2.3-.9 1.2-1.1 1.4-.2.2-.4.3-.8.1-.3-.2-1.4-.5-2.7-1.7-1-1-1.7-2.1-1.9-2.4-.2-.4 0-.6.2-.8.2-.2.3-.4.5-.6.2-.2.2-.4.4-.6.1-.3.1-.5 0-.7l-1.1-2.6c-.3-.6-.6-.6-.8-.6h-.5Z"/>
+      </svg>
+      <span class="sr-only">Falar pelo WhatsApp</span>
+    </a>
+    <script src="assets/js/contact.js"></script>
   </body>
 </html>

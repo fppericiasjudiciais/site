@@ -77,12 +77,66 @@
   background: rgba(255, 255, 255, 0.14);
 }
 
+.floating-whatsapp {
+  position: fixed;
+  right: 22px;
+  bottom: 22px;
+  z-index: 30;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  width: 58px;
+  height: 58px;
+  border-radius: 50%;
+  background: #1f8f4d;
+  color: #ffffff;
+  box-shadow: 0 16px 32px rgba(16, 42, 67, 0.24);
+  text-decoration: none;
+  transition:
+    background 0.2s ease,
+    transform 0.2s ease,
+    box-shadow 0.2s ease;
+}
+
+.floating-whatsapp:hover {
+  background: #167a40;
+  box-shadow: 0 18px 38px rgba(16, 42, 67, 0.28);
+  transform: translateY(-2px);
+}
+
+.floating-whatsapp-icon {
+  width: 34px;
+  height: 34px;
+  fill: currentColor;
+}
+
+.sr-only {
+  position: absolute;
+  overflow: hidden;
+  width: 1px;
+  height: 1px;
+  margin: -1px;
+  padding: 0;
+  border: 0;
+  clip: rect(0 0 0 0);
+  white-space: nowrap;
+}
+
 .hero-panel {
   padding: 28px;
   border: 1px solid rgba(255, 255, 255, 0.18);
   border-radius: var(--radius);
   background: rgba(255, 255, 255, 0.08);
   box-shadow: 0 20px 60px rgba(0, 0, 0, 0.18);
+}
+
+.hero-panel-image {
+  width: 100%;
+  aspect-ratio: 16 / 10;
+  margin-bottom: 22px;
+  border-radius: 6px;
+  object-fit: cover;
+  box-shadow: 0 16px 38px rgba(0, 0, 0, 0.24);
 }
 
 .hero-panel strong {
@@ -322,6 +376,16 @@
   color: var(--color-muted);
 }
 
+.contact-card a {
+  color: var(--color-navy-2);
+  font-weight: 800;
+  text-decoration: none;
+}
+
+.contact-card a:hover {
+  color: var(--color-gold-dark);
+}
+
 .contact-form {
   display: grid;
   gap: 16px;
@@ -407,5 +471,17 @@
 
   .process-item {
     grid-template-columns: 1fr;
+  }
+
+  .floating-whatsapp {
+    right: 14px;
+    bottom: 14px;
+    width: 52px;
+    height: 52px;
+  }
+
+  .floating-whatsapp-icon {
+    width: 30px;
+    height: 30px;
   }
 }
