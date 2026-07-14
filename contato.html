@@ -1,17 +1,113 @@
-<!doctype html><html><head><meta charset='utf-8'><link rel='stylesheet' href='assets/css/style.css'><title>Contato</title></head><body><header><div class='container'><strong>Fernando Alves Pires Neto</strong>
-<nav style='float:right'>
-<a href='index.html'>Home</a>
-<a href='sobre.html'>Sobre</a>
-<a href='especialidades.html'>Especialidades</a>
-<a href='contato.html'>Contato</a>
-</nav></div></header>
-<section><div class='container'><h1>Contato</h1>
-<p>Substitua as informações abaixo pelos seus dados.</p>
-<div class='card'>
-<p><strong>E-mail:</strong> seuemail@dominio.com</p>
-<p><strong>Telefone:</strong> (00) 00000-0000</p>
-<form><input style='width:100%;padding:10px;margin:8px 0' placeholder='Nome'>
-<input style='width:100%;padding:10px;margin:8px 0' placeholder='E-mail'>
-<textarea style='width:100%;padding:10px;height:120px;margin:8px 0' placeholder='Mensagem'></textarea>
-<button class='btn' type='button'>Enviar</button></form>
-</div></div></section><footer><div class='container'>© 2026 Fernando Alves Pires Neto • Perito Judicial</div></footer></body></html>
+<!doctype html>
+<html lang="pt-br">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta
+      name="description"
+      content="Entre em contato com a FP Per&iacute;cias Judiciais para solicitar an&aacute;lise t&eacute;cnica, parecer, laudo ou assist&ecirc;ncia pericial."
+    >
+    <title>Contato | FP Per&iacute;cias Judiciais</title>
+    <link rel="stylesheet" href="assets/css/style.css">
+  </head>
+  <body>
+    <header class="site-header">
+      <div class="container header-inner">
+        <a class="brand" href="index.html" aria-label="FP Per&iacute;cias Judiciais">
+          <span class="brand-mark">FP</span>
+          <span>
+            <strong>FP Per&iacute;cias Judiciais</strong>
+            <small>Fernando Alves Pires Neto</small>
+          </span>
+        </a>
+        <nav class="site-nav" aria-label="Navega&ccedil;&atilde;o principal">
+          <a href="index.html">Home</a>
+          <a href="sobre.html">Sobre</a>
+          <a href="especialidades.html">Especialidades</a>
+          <a href="contato.html" aria-current="page">Contato</a>
+        </nav>
+      </div>
+    </header>
+
+    <main>
+      <section class="page-hero">
+        <div class="container page-hero-inner">
+          <span class="eyebrow">Contato</span>
+          <h1>Solicite uma avalia&ccedil;&atilde;o t&eacute;cnica inicial.</h1>
+          <p>
+            Informe o contexto da demanda, a fase do processo e o tipo de evid&ecirc;ncia envolvida.
+            A partir disso, &eacute; poss&iacute;vel orientar o escopo e os pr&oacute;ximos passos.
+          </p>
+        </div>
+      </section>
+
+      <section class="section">
+        <div class="container contact-grid">
+          <div>
+            <span class="eyebrow">Canais</span>
+            <h2>Envie os dados principais do caso.</h2>
+            <p>
+              Para agilizar a an&aacute;lise, descreva de forma objetiva a controv&eacute;rsia, os documentos
+              dispon&iacute;veis e os prazos relevantes. Informa&ccedil;&otilde;es sens&iacute;veis podem ser tratadas em
+              etapa posterior, conforme a necessidade.
+            </p>
+
+            <div class="contact-cards">
+              <article class="contact-card">
+                <strong>E-mail</strong>
+                <span>atendimento@fppericias.com.br</span>
+              </article>
+              <article class="contact-card">
+                <strong>WhatsApp</strong>
+                <span>(00) 00000-0000</span>
+              </article>
+              <article class="contact-card">
+                <strong>Atendimento</strong>
+                <span>Demandas judiciais e extrajudiciais em todo o Brasil</span>
+              </article>
+            </div>
+          </div>
+
+          <form class="contact-form" action="#" method="post">
+            <div class="form-field">
+              <label for="name">Nome</label>
+              <input id="name" name="name" type="text" autocomplete="name" placeholder="Seu nome">
+            </div>
+            <div class="form-field">
+              <label for="email">E-mail</label>
+              <input id="email" name="email" type="email" autocomplete="email" placeholder="seuemail@dominio.com">
+            </div>
+            <div class="form-field">
+              <label for="phone">Telefone</label>
+              <input id="phone" name="phone" type="tel" autocomplete="tel" placeholder="(00) 00000-0000">
+            </div>
+            <div class="form-field">
+              <label for="subject">Tipo de demanda</label>
+              <select id="subject" name="subject">
+                <option value="">Selecione uma op&ccedil;&atilde;o</option>
+                <option>Computa&ccedil;&atilde;o forense</option>
+                <option>Documentoscopia</option>
+                <option>Grafotecnia</option>
+                <option>Assinaturas digitais</option>
+                <option>Tecnologia da informa&ccedil;&atilde;o</option>
+                <option>Assist&ecirc;ncia t&eacute;cnica</option>
+              </select>
+            </div>
+            <div class="form-field">
+              <label for="message">Resumo do caso</label>
+              <textarea id="message" name="message" rows="6" placeholder="Descreva brevemente a demanda, prazos e documentos dispon&iacute;veis."></textarea>
+            </div>
+            <button class="btn btn-primary" type="submit">Enviar solicita&ccedil;&atilde;o</button>
+          </form>
+        </div>
+      </section>
+    </main>
+
+    <footer class="site-footer">
+      <div class="container footer-inner">
+        <strong>FP Per&iacute;cias Judiciais</strong>
+        <span>&copy; 2026 Fernando Alves Pires Neto &middot; Perito Judicial</span>
+      </div>
+    </footer>
+  </body>
+</html>
