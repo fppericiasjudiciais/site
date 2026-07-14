@@ -185,8 +185,8 @@
 
 .profile-section {
   display: grid;
-  grid-template-columns: minmax(0, 0.9fr) minmax(220px, 300px) minmax(300px, 0.9fr);
-  gap: 34px;
+  grid-template-columns: minmax(0, 1fr) minmax(180px, 240px) minmax(300px, 0.95fr);
+  gap: 30px;
   align-items: center;
 }
 
@@ -475,7 +475,7 @@
   }
 
   .profile-photo {
-    width: min(320px, 100%);
+    width: min(240px, 72%);
     justify-self: center;
   }
 
