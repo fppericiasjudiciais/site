@@ -185,14 +185,21 @@
 
 .profile-section {
   display: grid;
-  grid-template-columns: minmax(0, 1fr) minmax(180px, 240px) minmax(300px, 0.95fr);
+  grid-template-columns: minmax(0, 1fr) 220px minmax(300px, 0.95fr);
   gap: 30px;
   align-items: center;
 }
 
+.profile-section > * {
+  min-width: 0;
+}
+
 .profile-photo {
   position: relative;
+  width: 220px;
+  max-width: 100%;
   margin: 0;
+  justify-self: center;
 }
 
 .profile-photo::before {
@@ -207,8 +214,9 @@
 .profile-photo img {
   position: relative;
   z-index: 1;
+  display: block;
   width: 100%;
-  aspect-ratio: 4 / 5;
+  height: 292px;
   border: 1px solid var(--color-line);
   border-radius: var(--radius);
   object-fit: cover;
@@ -475,7 +483,7 @@
   }
 
   .profile-photo {
-    width: min(240px, 72%);
+    width: min(220px, 70vw);
     justify-self: center;
   }
 
