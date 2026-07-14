@@ -183,6 +183,16 @@
   font-size: 1.12rem;
 }
 
+.error-hero {
+  min-height: calc(100vh - 220px);
+  display: grid;
+  align-items: center;
+}
+
+.error-hero .hero-actions {
+  margin-top: 28px;
+}
+
 .profile-section {
   display: grid;
   grid-template-columns: minmax(0, 0.9fr) minmax(220px, 300px) minmax(300px, 0.9fr);
