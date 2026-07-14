@@ -24,14 +24,16 @@
 
 .brand-mark {
   display: grid;
-  width: 44px;
-  height: 44px;
+  width: 48px;
+  height: 48px;
   place-items: center;
-  border: 1px solid rgba(255, 255, 255, 0.28);
-  border-radius: var(--radius);
-  background: rgba(255, 255, 255, 0.08);
-  color: var(--color-gold);
-  font-weight: 800;
+  flex: 0 0 auto;
+}
+
+.brand-mark img {
+  width: 100%;
+  height: 100%;
+  filter: drop-shadow(0 8px 14px rgba(0, 0, 0, 0.22));
 }
 
 .brand strong,
