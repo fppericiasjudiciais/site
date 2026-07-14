@@ -167,6 +167,16 @@ footer:not(.site-footer) {
   font-size: 0.92rem;
 }
 
+.footer-inner a {
+  color: rgba(255, 255, 255, 0.78);
+  font-size: 0.9rem;
+  text-decoration: none;
+}
+
+.footer-inner a:hover {
+  color: #ffffff;
+}
+
 @media (max-width: 760px) {
   .header-inner {
     align-items: flex-start;
