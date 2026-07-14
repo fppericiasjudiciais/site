@@ -106,9 +106,25 @@
               </select>
             </div>
             <div class="form-field">
+              <label for="deadline">Prazo ou fase do processo</label>
+              <select id="deadline" name="deadline" required>
+                <option value="">Selecione uma op&ccedil;&atilde;o</option>
+                <option>An&aacute;lise preliminar</option>
+                <option>Antes da nomea&ccedil;&atilde;o do perito</option>
+                <option>Per&iacute;cia j&aacute; designada</option>
+                <option>Laudo j&aacute; apresentado</option>
+                <option>Prazo urgente</option>
+                <option>N&atilde;o sei informar</option>
+              </select>
+            </div>
+            <div class="form-field">
               <label for="message">Resumo do caso</label>
               <textarea id="message" name="message" rows="6" placeholder="Descreva brevemente a demanda, prazos e documentos dispon&iacute;veis." required></textarea>
             </div>
+            <p class="confidentiality-note">
+              As informa&ccedil;&otilde;es enviadas s&atilde;o tratadas com sigilo profissional e utilizadas
+              apenas para avalia&ccedil;&atilde;o inicial da demanda.
+            </p>
             <button class="btn btn-primary" type="submit">Enviar pelo WhatsApp</button>
           </form>
         </div>

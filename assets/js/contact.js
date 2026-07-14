@@ -15,6 +15,7 @@ if (contactForm) {
       `E-mail: ${formData.get("email")}`,
       `Telefone: ${formData.get("phone")}`,
       `Tipo de demanda: ${formData.get("subject")}`,
+      `Prazo ou fase do processo: ${formData.get("deadline")}`,
       "",
       "Resumo do caso:",
       formData.get("message")
