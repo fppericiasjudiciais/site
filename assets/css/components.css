@@ -731,6 +731,43 @@
   max-width: 860px;
 }
 
+.breadcrumbs {
+  display: flex;
+  gap: 8px;
+  flex-wrap: wrap;
+  margin-bottom: 24px;
+  color: var(--color-muted);
+  font-size: 0.9rem;
+}
+
+.breadcrumbs a,
+.breadcrumbs strong,
+.breadcrumbs span {
+  display: inline-flex;
+  align-items: center;
+}
+
+.breadcrumbs a {
+  color: var(--color-navy-2);
+  font-weight: 800;
+  text-decoration: none;
+}
+
+.breadcrumbs a:hover {
+  color: var(--color-gold-dark);
+}
+
+.breadcrumbs span::before,
+.breadcrumbs strong::before {
+  margin-right: 8px;
+  color: var(--color-line);
+  content: "/";
+}
+
+.breadcrumbs strong {
+  color: var(--color-navy);
+}
+
 .article-content h2 {
   margin-top: 34px;
   margin-bottom: 10px;
