@@ -13,7 +13,7 @@
   color: #ffffff;
   background:
     linear-gradient(110deg, rgba(16, 42, 67, 0.98) 0%, rgba(16, 42, 67, 0.92) 42%, rgba(16, 42, 67, 0.7) 100%),
-    url("../images/hero-juridico-tecnologia.png") center right / cover no-repeat,
+    url("../images/hero-juridico-tecnologia-web.jpg") center right / cover no-repeat,
     linear-gradient(135deg, #102a43, #285b82);
 }
 
@@ -166,28 +166,28 @@
 .page-hero-sobre {
   background:
     linear-gradient(110deg, rgba(16, 42, 67, 0.98) 0%, rgba(16, 42, 67, 0.9) 44%, rgba(16, 42, 67, 0.68) 100%),
-    url("../images/hero-sobre.png") center right / cover no-repeat,
+    url("../images/hero-sobre-web.jpg") center right / cover no-repeat,
     linear-gradient(135deg, #102a43, #285b82);
 }
 
 .page-hero-especialidades {
   background:
     linear-gradient(110deg, rgba(16, 42, 67, 0.98) 0%, rgba(16, 42, 67, 0.9) 44%, rgba(16, 42, 67, 0.68) 100%),
-    url("../images/hero-especialidades.png") center right / cover no-repeat,
+    url("../images/hero-especialidades-web.jpg") center right / cover no-repeat,
     linear-gradient(135deg, #102a43, #285b82);
 }
 
 .page-hero-artigos {
   background:
     linear-gradient(110deg, rgba(16, 42, 67, 0.98) 0%, rgba(16, 42, 67, 0.9) 44%, rgba(16, 42, 67, 0.68) 100%),
-    url("../images/hero-artigos.png") center right / cover no-repeat,
+    url("../images/hero-artigos-web.jpg") center right / cover no-repeat,
     linear-gradient(135deg, #102a43, #285b82);
 }
 
 .page-hero-contato {
   background:
     linear-gradient(110deg, rgba(16, 42, 67, 0.98) 0%, rgba(16, 42, 67, 0.9) 44%, rgba(16, 42, 67, 0.68) 100%),
-    url("../images/hero-contato.png") center right / cover no-repeat,
+    url("../images/hero-contato-web.jpg") center right / cover no-repeat,
     linear-gradient(135deg, #102a43, #285b82);
 }
 
